@@ -1,4 +1,5 @@
 package hu.szamalk.model;
 
-public class CloneableEvent {
+public interface CloneableEvent {
+    Object cloneEvent();
 }
